@@ -2,7 +2,7 @@
 
 /**
  * prints_times_table - prints a multiplication table up to parameter
- * n - paramter to be treated
+ *@n - paramter to be treated for the function
  *
  * Return: Number matrix
  */
@@ -10,9 +10,9 @@ void print_times_table(int n)
 {
 	int x, y, z;
 
-	if (n >= 0 && n <=14)
+	if (n >= 0 && n <= 14)
 	{
-		for (x = 0; x <= n; n++)
+		for (x = 0; x <= n; x++)
 		{
 			for (y = 0; y <= n; y++)
 			{
