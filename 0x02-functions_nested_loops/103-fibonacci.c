@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - prints all fibanaccie nums
- * 	staring with second 1
+ * main - Entry point 
+ * 
  *
- * 	Return Always 0
+ * Return 0 (Success)
  */
 int main(void)
 {
