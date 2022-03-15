@@ -1,10 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - Entry point 
- * 
+ * main - print all fibanaccie nums
+ * 	starting with the second 1
+ *
  *
  * Return 0 (Success)
+ * does- not exceed  4000000
  */
 int main(void)
 {
