@@ -3,11 +3,11 @@
 /**
  * _atoi - converts a string to an integer
  * @s: pointer to char which is a string to be converted
- * Return: int 
+ * Return: int
  */
 int _atoi(char *s)
 {
-	int sign = -1;
+	int sign = 1;
 	unsigned int num = 0;
 
 
