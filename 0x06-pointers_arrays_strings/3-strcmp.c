@@ -1,6 +1,9 @@
 #include "main.h"
 /**
- * _strcmp compares two strings
+ * _strcmp - compares two strings
+ * description: returns 0 when strings are equal
+ *		returns an int greater than 0 when dest greater than src
+ *		returns less than 0 when src greater than dest
  * @s1: char pointer
  * @s2: char pointer
  * Return: j-integer

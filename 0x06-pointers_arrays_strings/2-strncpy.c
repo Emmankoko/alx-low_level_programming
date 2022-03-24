@@ -2,6 +2,7 @@
 
 /**
  * *_strcpy - copies a string
+ * description: copies up to n characters from the string pointed to by src
  * @dest: char
  * @src: char
  * @n: int
