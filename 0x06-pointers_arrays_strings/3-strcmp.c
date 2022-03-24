@@ -3,12 +3,11 @@
  * _strcmp compares two strings
  * @s1: char pointer
  * @s2: char pointer
- * Return: int
+ * Return: j-integer
  */
 int _strcmp(char *s1, char *s2)
 {
-	int i = 0;
-	int j = 0;
+	int i = 0, j = 0;
 
 	do {
 		if (s1[i] != s2[i])
@@ -18,5 +17,5 @@ int _strcmp(char *s1, char *s2)
 		}
 		i++;
 	} while (s1[i] && s2[i]);
-	return j;
+	return (j);
 }

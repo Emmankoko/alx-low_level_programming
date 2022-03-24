@@ -6,7 +6,7 @@
  * @src: char
  * @n: int
  * Return: char
- * */
+ */
 
 char *_strncat(char *dest, char *src, int n)
 {
@@ -22,7 +22,7 @@ char *_strncat(char *dest, char *src, int n)
 	j = 0;
 	while (src[j] != '\0' && j < n)
 	{
-		dest[i] = src[i];
+		dest[i] = src[j];
 		i++;
 		j++;
 	}
