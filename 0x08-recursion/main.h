@@ -1,0 +1,14 @@
+void _puts_recursion(char *s);
+int _putchar(char n);
+void _print_rev_recursion(char *s);
+int _strlen_recursion(char *s);
+int factorial(int n);
+int _pow_recursion(int n);
+int sqrt_check(int g, int c);
+int _sqrt_recursion(int n);
+int prime_check(int f, int p);
+int is_prime_number(int n);
+int _strlen(char *str);
+int check_palindrome(int l, int r, char *p);
+int is_palindrome(char *s);
+int wildcmp(char *s1, char *s2);
