@@ -1,9 +1,11 @@
+#include "search_algos.h"
+
 /**
  * main - Entry point
  * linear_search - function that the returns index at which value can be found
- * value - the number being searched for
- * size - size of the array
- * array - array containing the elements to be searched for
+ * @value - the number being searched for
+ * @size - size of the array
+ * @array - array containing the elements to be searched for
  * Return: Always EXIT_SUCCESS
  */
 
